@@ -1,0 +1,9 @@
+{
+  "name": "automation-training",
+  "main": "",
+  "author": "CommodoreBeard",
+  "license": "MIT",
+  "dependencies": {
+    "webdriverio": "^4.8.0"
+  }
+}
