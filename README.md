@@ -18,7 +18,7 @@ This project is to introduce basic automated testing skills. The project will sl
 ```
 cd application
 virtualenv venv -p python3 --system-site-packages && source venv/bin/activate
-pip3 instal -r requirements.txt
+pip3 install -r requirements.txt
 cd ..
 yarn flask-service:start
 ```
