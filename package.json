@@ -1,5 +1,5 @@
 {
-  "name": "Automation Training",
+  "name": "Automation-Training",
   "version": "0.0.1",
   "description": "Training for test automation",
   "homepage": "https://github.com/CommodoreBeard/automation-training",
@@ -32,7 +32,7 @@
   ],
   "author": "Joe Hughes <joe@joehughes.org>",
   "contributors": [
-    
+
   ],
   "license": "MIT",
   "dependencies": {
