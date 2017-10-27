@@ -13,6 +13,12 @@ def greeting():
     }
     return (jsonify(greeting), 200)
 
+
+@app.route('/redpill', methods=['POST'])
+def redpill():
+    return render_template('redpill.html', redpill=request.form)
+
+
 @app.route('/user', methods=['POST'])
 def user():
     return render_template('user.html', user=request.form)
