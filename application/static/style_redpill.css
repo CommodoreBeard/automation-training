@@ -8,3 +8,9 @@ p {
     color: lawngreen;
     font-family: Courier New, monospace;
 }
+
+.image {
+  width: 100%;
+  background-color: red;
+  background-image: url(./cypher.jpg);
+}
