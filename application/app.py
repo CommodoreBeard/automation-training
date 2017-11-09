@@ -13,6 +13,10 @@ def greeting():
     }
     return (jsonify(greeting), 200)
 
+@app.route('/user', methods=['POST'])
+def user():
+    return render_template('user.html', user=request.form)
+
 def shutdown_server():
     func = request.environ.get('werkzeug.server.shutdown')
     if func is None:
