@@ -6,12 +6,10 @@
 
     <form role="form" method="post" action="{{ url_for('user') }}">
         <input id='username-input' type="text" name="user_name" placeholder="User Name">
-        <input id='user-name-submit-btn' type="submit" value="Submit User"/>
-    </form>
 
-    <form role="form" method="post" action="{{ url_for('redpill') }}">
-        <input id='redpill-input' type="text" name="redpill_name" placeholder="Name?">
-        <input id='redpill-btn' type="submit" value="Take Red Pill"/>
+        <input id='password-input' type="text" name="password" placeholder="Password">
+
+        <input id='submit-btn' type="submit" value="Submit User"/>
     </form>
 
 </body>

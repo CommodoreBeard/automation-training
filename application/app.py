@@ -21,6 +21,8 @@ def redpill():
 
 @app.route('/user', methods=['POST'])
 def user():
+    print("USERNAME FROM FORM: {}".format(request.form['user_name']))
+    print("PASSWORD FROM FORM: {}".format(request.form['password']))
     return render_template('user.html', user=request.form)
 
 def shutdown_server():
